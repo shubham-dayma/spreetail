@@ -16,4 +16,4 @@ scrapy crawl product_spider
 ```
 
 ### Demo
-[![Watch the video](<thumbnail.png>)](<video.mp4>)
+[![Watch the video](https://github.com/shubham-dayma/spreetail/blob/main/demo/thumbnail.png)](https://github.com/shubham-dayma/spreetail/blob/main/demo/video.mp4)
