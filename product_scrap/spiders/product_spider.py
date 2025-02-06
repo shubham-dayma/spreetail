@@ -12,9 +12,9 @@ class ProductSpider(scrapy.Spider):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.cookies = {}
-        self.humanCheck()
+        self.human_check()
 
-    def humanCheck(self):
+    def human_check(self):
         user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
         options = webdriver.ChromeOptions()
         options.add_argument("--window-size=1920,1080")
@@ -72,7 +72,7 @@ class ProductSpider(scrapy.Spider):
             description,
         )
 
-    def fetchReviews(
+    def fetch_reviews(
         self,
         response,
         NeweggItemNumber,
@@ -199,7 +199,7 @@ class ProductSpider(scrapy.Spider):
 
         return scrapy.Request(
             url=url,
-            callback=self.fetchReviews,
+            callback=self.fetch_reviews,
             cb_kwargs={
                 "NeweggItemNumber": NeweggItemNumber,
                 "ItemNumber": ItemNumber,
