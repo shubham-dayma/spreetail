@@ -16,4 +16,5 @@ scrapy crawl product_spider
 ```
 
 ### Demo
-[![Watch the video](https://github.com/shubham-dayma/spreetail/blob/main/demo/thumbnail.png)](https://github.com/shubham-dayma/spreetail/blob/main/demo/video.mp4)
+https://github.com/user-attachments/assets/815e1e0a-e15f-43e4-b261-d621dbfb1904
+
